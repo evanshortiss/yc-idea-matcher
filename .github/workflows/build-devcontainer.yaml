@@ -1,6 +1,7 @@
 name: Devcontainer Image Build
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - .devcontainer/**
