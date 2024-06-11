@@ -1,8 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:dev-20",
+  "image": "evanatneon/devcontainer:latest",
   "portsAttributes": {
 		"3000": {
-			"label": "Hello Remote World",
+			"label": "Next.js Application Port",
 			"onAutoForward": "notify"
 		}
 	}
